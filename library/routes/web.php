@@ -3,5 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('app');
+    return view('login');
+});
+Route::get('/register', function () {
+    return view('register');
+});
+Route::get('/portal', function () {
+    return view('portal');
 });
